@@ -11,6 +11,8 @@
 		3E206760275CA08D001E0007 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20675F275CA08D001E0007 /* ContentView.swift */; };
 		3E206762275CA08E001E0007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E206761275CA08E001E0007 /* Assets.xcassets */; };
 		3E206765275CA08E001E0007 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E206764275CA08E001E0007 /* Preview Assets.xcassets */; };
+		3E20676D275CA36A001E0007 /* TodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20676C275CA36A001E0007 /* TodosView.swift */; };
+		3E20676F275CA681001E0007 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E20676E275CA681001E0007 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		3E20675F275CA08D001E0007 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E206761275CA08E001E0007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E206764275CA08E001E0007 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E20676B275CA31F001E0007 /* SwiftUI-Tutorial-04-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUI-Tutorial-04-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3E20676C275CA36A001E0007 /* TodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosView.swift; sourceTree = "<group>"; };
+		3E20676E275CA681001E0007 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		3E20675C275CA08D001E0007 /* SwiftUI_Tutorial_04 */ = {
 			isa = PBXGroup;
 			children = (
+				3E20676B275CA31F001E0007 /* SwiftUI-Tutorial-04-Info.plist */,
 				3E20675D275CA08D001E0007 /* SwiftUI_Tutorial_04App.swift */,
 				3E20675F275CA08D001E0007 /* ContentView.swift */,
+				3E20676C275CA36A001E0007 /* TodosView.swift */,
+				3E20676E275CA681001E0007 /* ProfileView.swift */,
 				3E206761275CA08E001E0007 /* Assets.xcassets */,
 				3E206763275CA08E001E0007 /* Preview Content */,
 			);
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E20676F275CA681001E0007 /* ProfileView.swift in Sources */,
 				3E206760275CA08D001E0007 /* ContentView.swift in Sources */,
+				3E20676D275CA36A001E0007 /* TodosView.swift in Sources */,
 				3E20675E275CA08D001E0007 /* SwiftUI_Tutorial_04App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +282,7 @@
 				DEVELOPMENT_TEAM = BR8CN8N4Y6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Tutorial-04-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +312,7 @@
 				DEVELOPMENT_TEAM = BR8CN8N4Y6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Tutorial-04-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
